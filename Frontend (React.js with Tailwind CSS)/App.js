@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Switch>
+        <Switch>  // Switch component for rendering only one route at a time
           <Route exact path="/" component={Login} />
           <Route path="/dashboard" component={Dashboard} />
         </Switch>
